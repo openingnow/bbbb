@@ -1,0 +1,12 @@
+title: nbbbbb
+
+markdown: GFM
+GFM:
+    hard_wrap   : true
+
+# kramdown:
+#     smart_quotes: ["apos", "apos", "quot", "quot"]
+#     hard_wrap   : true
+
+x-bookurl: x-bookurl-2
+x-bookurl-2: x-bookurl-2-content
