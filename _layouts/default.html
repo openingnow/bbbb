@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link href='{{ "/style.css" | relative_url }}' rel="stylesheet">
+
+<body>
+  <nav><a href='{{ "/" | relative_url }}'>opng : Blog</a><a href='{{ "/about" | relative_url }}'>About</a></nav>
+  {{ content }}
